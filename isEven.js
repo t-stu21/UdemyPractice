@@ -28,3 +28,10 @@ function factorial(x) {
 console.log(factorial(5));
 
 
+function kebabToStr (str) {
+// takes in str with a - and replaces it with an _
+  let replace = str.replace(/-/g, "_")
+  return replace
+}
+
+console.log(kebabToStr("hey-there"))
